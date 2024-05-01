@@ -32,3 +32,7 @@ func handleRequest() (events.APIGatewayProxyResponse, error) {
 func main() {
 	lambda.Start(handleRequest)
 }
+
+func HelloWorld() {
+	fmt.Println("Say Hello")
+}
