@@ -9,3 +9,8 @@ type Product struct {
 	Category    string `dynamodbav:"category"`
 	DateAdded   string `dynamodbav:"dateAdded"`
 }
+
+type Personal struct {
+	Name    string
+	Surname string
+}
