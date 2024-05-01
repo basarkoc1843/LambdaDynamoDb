@@ -14,7 +14,7 @@ import (
 func InsertData(client *dynamodb.Client) {
 	product := entities.Product{
 		ProductUUID: "asdasd",
-		Name:        "asdad",
+		Name:        "tttt",
 		Description: "sadad",
 		Brand:       "adsad",
 		Price:       "asdsadas",
